@@ -159,9 +159,10 @@ async function get_data() {
       <div className="row">
         <div className="col-lg-6">
           <h2>About The Event</h2>
-          <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-            accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-            est ut optio sequi unde.</p>
+          <p>Join us for an exciting event filled with inspiring talks, interactive sessions, and networking opportunities. 
+  Our goal is to bring together professionals, students, and innovators to share knowledge, explore new ideas, 
+  and create meaningful connections. Don’t miss the chance to be part of this unique experience!
+</p>
         </div>
         <div className="col-lg-3">
           <h3>Where</h3>
@@ -273,7 +274,8 @@ async function get_data() {
 
   <div className="container section-title" data-aos="fade-up">
     <h2>Event Schedule<br/></h2>
-    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    <p>Stay updated with our event’s full schedule, including keynote sessions, workshops, and networking opportunities. 
+  Plan your day and make sure you don’t miss out on your favorite activities!</p>
   </div>
 
   <div className="container">
@@ -292,7 +294,11 @@ async function get_data() {
 
     <div className="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
 
-      <h3 className="sub-heading">Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia. Eius necessitatibus voluptatem quis labore perspiciatis quia.</h3>
+      <h3 className="sub-heading"><p>
+  Our event is designed to bring together leaders, innovators, and professionals 
+  to share ideas, inspire change, and create meaningful connections.
+</p>
+</h3>
 
      
       <div role="tabpanel" className="col-lg-9 tab-pane fade show active" id="day-1">
@@ -322,10 +328,10 @@ async function get_data() {
           <div className="col-md-2"><time>10:00 AM</time></div>
           <div className="col-md-10">
             <div className="speaker">
-              <img src="./assets/img/speakers/speaker-1-2.jpg" alt="Brenden Legros"/>
+              <img src="./assets/img/speakers/speaker-1-2.jpg" alt="Sarah Johnson"/>
             </div>
-            <h4>Libero corrupti explicabo itaque. <span>Brenden Legros</span></h4>
-            <p>Facere provident incidunt quos voluptas.</p>
+            <h4>Workshop: Building Smarter Apps  <span>Sarah Johnson</span></h4>
+            <p>    A hands-on workshop covering modern app development strategies and tools for efficiency. </p>
           </div>
         </div>
 
@@ -337,13 +343,19 @@ async function get_data() {
       <div role="tabpanel" className="col-lg-9  tab-pane fade" id="day-3">
 
         <div className="row schedule-item">
-          <div className="col-md-2"><time>10:00 AM</time></div>
+          <div className="col-md-2"><time>11:30 AM</time></div>
           <div className="col-md-10">
             <div className="speaker">
               <img src="./assets/img/speakers/speaker-2-2.jpg" alt="Hubert Hirthe"/>
             </div>
-            <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
-            <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
+          <h4>Keynote: Innovation Through Leadership <span class="speaker">Hubert Hirthe</span></h4>
+<p>
+  Discover how strong leadership and creative thinking can spark transformation 
+  in organizations and communities. Attendees will gain practical insights and 
+  strategies to apply in their own leadership journey.
+</p>
+
+
           </div>
         </div>
 
@@ -361,7 +373,10 @@ async function get_data() {
 
   <div className="container section-title" data-aos="fade-up">
     <h2>Event Venue<br/></h2>
-    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    <p>Join us at the <strong>Expo Center, Pakistan, Downtown City</strong>. Conveniently located 
+  near public transport with ample parking space, the venue offers the perfect environment 
+  for learning, networking, and collaboration.
+</p>
   </div>
 
   <div className="container-fluid" data-aos="fade-up">
@@ -375,8 +390,13 @@ async function get_data() {
         <div className="row justify-content-center">
           <div className="col-11 col-lg-8 position-relative">
             <h3>Expo Center, Pakistan</h3>
-            <p>Iste nobis eum sapiente sunt enim dolores labore accusantium autem. Cumque beatae ipsam. Est quae sit qui voluptatem corporis velit. Qui maxime accusamus possimus. Consequatur sequi et ea suscipit enim nesciunt quia velit.</p>
-          </div>
+            <p>
+  This event brings together industry leaders, innovators, and enthusiasts for 
+  a full day of knowledge-sharing, networking, and collaboration. From inspiring 
+  keynote sessions to engaging workshops, every moment is designed to provide 
+  value and create meaningful connections.
+</p>
+</div>
         </div>
       </div>
     </div>
@@ -458,9 +478,13 @@ async function get_data() {
 <section id="hotels" className="hotels section">
 
   <div className="container section-title" data-aos="fade-up">
-    <h2>Events</h2>
-    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-  </div>
+  <h2>Events</h2>
+<p>
+  Our event schedule includes keynote speeches, panel discussions, hands-on workshops, 
+  and networking sessions that bring together professionals, students, and innovators 
+  from diverse fields.
+</p>
+</div>
 
   <div className="container">
 
@@ -514,9 +538,13 @@ async function get_data() {
 
 
   <div className="container section-title" data-aos="fade-up">
-    <h2>Sponsors</h2>
-    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-  </div>
+<h2>Sponsors</h2>
+<p>
+  We are proud to be supported by our amazing sponsors who make this event possible. 
+  Their commitment and generosity help us bring together inspiring speakers, engaging 
+  sessions, and a memorable experience for all attendees.
+</p>
+</div>
 
   <div className="container" data-aos="fade-up" data-aos-delay="100">
 

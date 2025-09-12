@@ -30,10 +30,10 @@ export default function A_Resetpass() {
         <Navbar/>
     <div className='container'>
     {/* <h2>Reset Password</h2> */}
-    <p>Enter Your Password</p>
+    <p>Enter Your Password! Sir</p>
     <input type="password" placeholder='Enter Password ' className='form-control my-2' value={pswd}
     onChange={(e)=>setPswd(e.target.value)}/>
-    <p>Enter Your Password</p>
+    <p>Enter Your Password! Sir</p>
     <input type="password" placeholder='Confirm Password ' className='form-control my-2' value={cpswd}
     onChange={(e)=>setCpswd(e.target.value)}/>
 

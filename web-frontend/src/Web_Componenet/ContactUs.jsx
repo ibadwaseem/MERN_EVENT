@@ -119,10 +119,15 @@ export default function ContactUs() {
         <div className="container position-relative" data-aos="fade-up">
           <div className="row">
             <div className="col-lg-6">
-              <h2>About The Event</h2>
-              <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-                accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-                est ut optio sequi unde.</p>
+<h2>About The Event</h2>
+<p>
+  EventSphere 2025 brings together industry leaders, innovators, and enthusiasts for a day of 
+  inspiration, collaboration, and growth. Through keynote talks, interactive workshops, and 
+  networking opportunities, attendees will discover new ideas, gain practical insights, and 
+  connect with like-minded professionals. Whether you’re here to learn, share, or be inspired, 
+  this event is designed to create lasting impact.
+</p>
+
             </div>
             <div className="col-lg-3">
               <h3>Where</h3>
@@ -142,7 +147,10 @@ export default function ContactUs() {
 
   <div className="container section-title" data-aos="fade-up">
     <h2>Contact</h2>
-    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+<p>
+  Have questions about the event? Get in touch with us — we’re here to help with 
+  registrations, sponsorship opportunities, and general inquiries.
+</p>
   </div>
 
   <div className="container" data-aos="fade-up" data-aos-delay="100">
@@ -153,7 +161,7 @@ export default function ContactUs() {
         <div className="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
           <i className="bi bi-geo-alt"></i>
           <h3>Address</h3>
-          <p>A108 Adam Street, Pakistan, PAK 535022</p>
+          <p>///</p>
         </div>
       </div>
 
@@ -161,7 +169,7 @@ export default function ContactUs() {
         <div className="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
           <i className="bi bi-telephone"></i>
           <h3>Call Us</h3>
-          <p>+1 5589 55488 55</p>
+          <p>+92 319 3276826</p>
         </div>
       </div>
 
@@ -169,7 +177,7 @@ export default function ContactUs() {
         <div className="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
           <i className="bi bi-envelope"></i>
           <h3>Email Us</h3>
-          <p>info@example.com</p>
+          <p>eventsphere.management@bussiness.com </p>
         </div>
       </div>
 

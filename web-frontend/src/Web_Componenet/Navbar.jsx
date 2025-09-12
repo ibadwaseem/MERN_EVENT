@@ -95,6 +95,7 @@ export default function Navbar() {
           {/* <a className="cta-btn d-none d-sm-block" href="#buy-tickets">Buy Tickets</a> */}
         </div>
       </header>
+      
 
       {/* {showModal && (
         <div className="modal show fade d-block" tabIndex="-1">

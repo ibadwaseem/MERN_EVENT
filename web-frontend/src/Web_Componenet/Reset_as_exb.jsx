@@ -38,7 +38,7 @@ let nav = useNavigate();
         <div>
             {/* <Navbar /> */}
             <div className='container my-5' style={{ maxWidth: '500px' }}>
-                <h2 className='mb-4'>Reset Your Password</h2>
+                <h2 className='mb-4'>Reset Your Password!</h2>
                 
                 <label>New Password</label>
                 <input

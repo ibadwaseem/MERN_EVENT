@@ -121,9 +121,13 @@ async function save_feed(e) {
           <div className="row">
             <div className="col-lg-6">
               <h2>About The Event</h2>
-              <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-                accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-                est ut optio sequi unde.</p>
+              <p>
+  EventSphere 2025 brings together industry leaders, innovators, and enthusiasts for a day of 
+  inspiration, collaboration, and growth. Through keynote talks, interactive workshops, and 
+  networking opportunities, attendees will discover new ideas, gain practical insights, and 
+  connect with like-minded professionals. Whether you’re here to learn, share, or be inspired, 
+  this event is designed to create lasting impact.
+</p>
             </div>
             <div className="col-lg-3">
               <h3>Where</h3>
@@ -155,19 +159,19 @@ async function save_feed(e) {
           <div className="info-item text-center p-4 bg-white shadow rounded" data-aos="fade-up" data-aos-delay="100">
             <i className="bi bi-geo-alt fs-3 text-danger mb-2"></i>
             <h5>Address</h5>
-            <p className="mb-0">A108 Adam Street, Pakistan, PAK 535022</p>
+            <p className="mb-0">///</p>
           </div>
 
           <div className="info-item text-center p-4 bg-white shadow rounded" data-aos="fade-up" data-aos-delay="200">
             <i className="bi bi-telephone fs-3 text-danger mb-2"></i>
             <h5>Call Us</h5>
-            <p className="mb-0">+1 5589 55488 55</p>
+            <p className="mb-0">+92 319 3276826</p>
           </div>
 
           <div className="info-item text-center p-4 bg-white shadow rounded" data-aos="fade-up" data-aos-delay="300">
             <i className="bi bi-envelope fs-3 text-danger mb-2"></i>
             <h5>Email Us</h5>
-            <p className="mb-0">info@example.com</p>
+            <p className="mb-0">eventsphere.management@bussiness.com</p>
           </div>
         </div>
       </div>
