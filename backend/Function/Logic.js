@@ -271,7 +271,7 @@ let main_func={
                 
             }
             let random_set=jwt.sign({id:email_check.id},process.env.SECRET_KEY,{expiresIn:"10m"})
-            let link=`http://localhost:4000/reset/${random_set}`
+            let link=`http://localhost:3000/reset/${random_set}`
             let Email_body={
                 to :email_check.email,
                 from:process.env.EMAIL,
@@ -427,7 +427,7 @@ let main_func={
                 from:process.env.EMAIL,
                 subject:"Register Successfully",
                 html:`<h3>Hi ${name}<br/><br/> Your Account Register Successfully, Congratulations .<br/>
-                <a href='http://localhost:4000/eproject/exb_log'>Continue on website<a/>
+                <a href='http://localhost:3000/eproject/exb_log'>Continue on website<a/>
                 </h3>`
                 // yaha edit ho ga
                }
