@@ -53,12 +53,16 @@ async function save_event(e) {
               <div className="card shadow-lg border-0">
                 <div className="row g-0">
                   {/* Optional left image or branding section */}
-                  <div className="col-lg-5 d-none d-lg-flex align-items-center justify-content-center bg-primary text-white">
-                    <div className="text-center p-4">
-                      <h2 className="fw-bold">Schedule Management</h2>
-                      <p>Create and manage schedule easily!</p>
-                    </div>
-                  </div>
+                  <div 
+  className="col-lg-5 d-none d-lg-flex align-items-center justify-content-center text-white"
+  style={{ background: "linear-gradient(180deg, #000000 10%, #224abe 100%)" }}
+>
+  <div className="text-center p-4">
+    <h2 className="fw-bold">Schedule Management</h2>
+    <p>Create and manage schedule easily!</p>
+  </div>
+</div>
+
 
                   <div className="col-lg-7">
                     <div className="p-5">

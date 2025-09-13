@@ -25,7 +25,7 @@ export default function Sidebar() {
     <div className="sidebar-brand-icon rotate-n-15">
         <i className="fas fa-laugh-wink"></i>
     </div>
-    <div className="sidebar-brand-text mx-3">ESM</div>
+    <div className="sidebar-brand-text mx-3">Event Sphere </div>
 </Link>
 
 <hr className="sidebar-divider my-0"/>
@@ -129,7 +129,7 @@ export default function Sidebar() {
         <span>Tables</span></Link>
 </li> */}
 
-<hr className="sidebar-divider d-none d-md-block"/>
+<hr className="sidebar-divider d-none d-md-"/>
 
 {/* <div className="text-center d-none d-md-inline">
     <button className="rounded-circle border-0" id="sidebarToggle"></button>

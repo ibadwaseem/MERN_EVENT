@@ -66,7 +66,7 @@ export default function Login_vis() {
     async function login_work(e){
         try {
           e.preventDefault()
-            await axios.post("http://localhost:3000/eproject/w_log",{
+            await axios.post("http://localhost:4000/eproject/w_log",{
                 email :email,
                 password:pass
             }).then((a)=>{

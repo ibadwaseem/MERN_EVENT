@@ -145,7 +145,7 @@ async function get_data() {
   <img src="./assets/img/hero-bg.jpg" alt="" data-aos="fade-in" className=""/>
 
   <div className="container d-flex flex-column align-items-center text-center mt-auto">
-    <h2 data-aos="fade-up" data-aos-delay="100" className="">The Event<br/><span>SphereManagement</span> System</h2>
+    <h2 data-aos="fade-up" data-aos-delay="100" className="">The Event<br/><span>Sphere Management</span> System</h2>
     <p data-aos="fade-up" data-aos-delay="200">Expo Center, Pakistan</p>
     <div data-aos="fade-up" data-aos-delay="300" className="">
       {/* <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" className="glightbox pulsating-play-btn mt-3"></a> */}
@@ -170,7 +170,7 @@ async function get_data() {
         </div>
         <div className="col-lg-3">
           <h3>When</h3>
-          <p>Monday to Wednesday<br/>10-12 December</p>
+          <p>Monday to Friday<br/>1-30 September</p>
         </div>
       </div>
     </div>
@@ -182,7 +182,7 @@ async function get_data() {
 <section id="speakers" className="speakers section">
 
 
-  <div className="container section-title" data-aos="fade-up">
+<div className="container section-title" data-aos="fade-up" >
     <h2>Event Speakers<br/></h2>
 
   </div>
@@ -195,8 +195,8 @@ async function get_data() {
           <img src="./assets/img/speakers/speaker-1.jpg" className="img-fluid" alt=""/>
           <div className="member-info">
             <div className="member-info-content">
-              <h4><a href="speaker-details.html">Walter White</a></h4>
-              <span>Quas alias incidunt</span>
+              <h4><a href="">Walter White</a></h4>
+              <span></span>
             </div>
             <div className="social">
               <a href=""><i className="bi bi-twitter-x"></i></a>
@@ -213,8 +213,8 @@ async function get_data() {
           <img src="./assets/img/speakers/speaker-2.jpg" className="img-fluid" alt=""/>
           <div className="member-info">
             <div className="member-info-content">
-              <h4><a href="speaker-details.html">Hubert Hirthe</a></h4>
-              <span>Consequuntur odio aut</span>
+              <h4><a href="">Hubert Hirthe</a></h4>
+              <span></span>
             </div>
             <div className="social">
               <a href=""><i className="bi bi-twitter-x"></i></a>
@@ -231,8 +231,8 @@ async function get_data() {
           <img src="./assets/img/speakers/speaker-3.jpg" className="img-fluid" alt=""/>
           <div className="member-info">
             <div className="member-info-content">
-              <h4><a href="speaker-details.html">Amanda Jepson</a></h4>
-              <span>Fugiat laborum et</span>
+              <h4><a href="">Amanda Jepson</a></h4>
+              <span></span>
             </div>
             <div className="social">
               <a href=""><i className="bi bi-twitter-x"></i></a>
@@ -249,8 +249,8 @@ async function get_data() {
           <img src="./assets/img/speakers/speaker-4.jpg" className="img-fluid" alt=""/>
           <div className="member-info">
             <div className="member-info-content">
-              <h4><a href="speaker-details.html">William Anderson</a></h4>
-              <span>Debitis iure vero</span>
+              <h4><a href="">William Anderson</a></h4>
+              <span></span>
             </div>
             <div className="social">
               <a href=""><i className="bi bi-twitter-x"></i></a>
