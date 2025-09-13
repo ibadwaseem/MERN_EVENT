@@ -25,7 +25,7 @@ export default function Sidebar() {
     <div className="sidebar-brand-icon rotate-n-15">
         <i className="fas fa-laugh-wink"></i>
     </div>
-    <div className="sidebar-brand-text mx-3">Event Sphere </div>
+    <div className="sidebar-brand-text mx-3">Event Sphere management</div>
 </Link>
 
 <hr className="sidebar-divider my-0"/>

@@ -3,6 +3,8 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import Sidebar from './Sidebar';
 
+
+
 export default function A_Index() {
   return (
     
@@ -20,88 +22,112 @@ export default function A_Index() {
                         {/* <a href="#" className="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                                 className="fas fa-download fa-sm text-white-50"></i> Generate Report</a> */}
                     </div>
+<div className="row">
 
-                    <div className="row">
+  {/* Event */}
+  <div className="col-xl-3 col-md-6 mb-4">
+    <div className="card shadow h-100 card-hover">
+      <div className="card-body text-center">
+        <i className="fas fa-calendar-alt fa-2x text-sucess mb-2"></i>
+        <h5 className="fw-bold">Event</h5>
+        <div className="dropdown hover-dropdown mt-2">
+          <button className="btn btn-primary btn-sm w-100">
+            Manage Event
+          </button>
+          <div className="dropdown-menu w-100">
+            <a className="dropdown-item" href="/event">➕ Add Event</a>
+            <a className="dropdown-item" href="/event_details">📋 Show Events</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-                        <div className="col-xl-3 col-md-6 mb-4">
-                            <div className="card border-left-primary shadow h-100 py-2">
-                                <div className="card-body">
-                                    <div className="row no-gutters align-items-center">
-                                        <div className="col mr-2">
-                                            <div className="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                Earnings (Monthly)</div>
-                                            <div className="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
-                                        </div>
-                                        <div className="col-auto">
-                                            <i className="fas fa-calendar fa-2x text-gray-300"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+  {/* Schedule */}
+  <div className="col-xl-3 col-md-6 mb-4">
+    <div className="card shadow h-100 card-hover">
+      <div className="card-body text-center">
+        <i className="fas fa-clock fa-2x text-success mb-2"></i>
+        <h5 className="fw-bold">Schedule</h5>
+        <div className="dropdown hover-dropdown mt-2">
+          <button className="btn btn-success btn-sm w-100">
+            Manage Schedule
+          </button>
+          <div className="dropdown-menu w-100">
+            <a className="dropdown-item" href="/schedule">➕ Add Schedule</a>
+            <a className="dropdown-item" href="/schedule_details">📋 Show Schedule</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-                        <div className="col-xl-3 col-md-6 mb-4">
-                            <div className="card border-left-success shadow h-100 py-2">
-                                <div className="card-body">
-                                    <div className="row no-gutters align-items-center">
-                                        <div className="col mr-2">
-                                            <div className="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                                Earnings (Annual)</div>
-                                            <div className="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
-                                        </div>
-                                        <div className="col-auto">
-                                            <i className="fas fa-dollar-sign fa-2x text-gray-300"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+  {/* Hall */}
+  <div className="col-xl-3 col-md-6 mb-4">
+    <div className="card shadow h-100 card-hover">
+      <div className="card-body text-center">
+        <i className="fas fa-building fa-2x text-info mb-2"></i>
+        <h5 className="fw-bold">Hall</h5>
+        <div className="dropdown hover-dropdown mt-2">
+          <button className="btn btn-info btn-sm w-100">
+            Manage Hall
+          </button>
+          <div className="dropdown-menu w-100">
+            <a className="dropdown-item" href="/add_hall">➕ Add Hall</a>
+            <a className="dropdown-item" href="/Show_halls">📋 Show Halls</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-                        <div className="col-xl-3 col-md-6 mb-4">
-                            <div className="card border-left-info shadow h-100 py-2">
-                                <div className="card-body">
-                                    <div className="row no-gutters align-items-center">
-                                        <div className="col mr-2">
-                                            <div className="text-xs font-weight-bold text-info text-uppercase mb-1">Tasks
-                                            </div>
-                                            <div className="row no-gutters align-items-center">
-                                                <div className="col-auto">
-                                                    <div className="h5 mb-0 mr-3 font-weight-bold text-gray-800">50%</div>
-                                                </div>
-                                                <div className="col">
-                                                    <div className="progress progress-sm mr-2">
-                                                        <div className="progress-bar bg-info" role="progressbar"
-                                                            style={{width: "50%"}} aria-valuenow="50" aria-valuemin="0"
-                                                            aria-valuemax="100"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-auto">
-                                            <i className="fas fa-clipboard-list fa-2x text-gray-300"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+  {/* Stall */}
+  <div className="col-xl-3 col-md-6 mb-4">
+    <div className="card shadow h-100 card-hover">
+      <div className="card-body text-center">
+        <i className="fas fa-store fa-2x text-warning mb-2"></i>
+        <h5 className="fw-bold">Stall</h5>
+        <div className="dropdown hover-dropdown mt-2">
+          <button className="btn btn-warning btn-sm w-100">
+            Manage Stall
+          </button>
+          <div className="dropdown-menu w-100">
+            <a className="dropdown-item" href="/add_stall">➕ Add Stall</a>
+            <a className="dropdown-item" href="/show_stall">📋 Show Stalls</a>
+            <a className="dropdown-item" href="/show_bstall">✅ Booked Stalls</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-                        <div className="col-xl-3 col-md-6 mb-4">
-                            <div className="card border-left-warning shadow h-100 py-2">
-                                <div className="card-body">
-                                    <div className="row no-gutters align-items-center">
-                                        <div className="col mr-2">
-                                            <div className="text-xs font-weight-bold text-warning text-uppercase mb-1">
-                                                Pending Requests</div>
-                                            <div className="h5 mb-0 font-weight-bold text-gray-800">18</div>
-                                        </div>
-                                        <div className="col-auto">
-                                            <i className="fas fa-comments fa-2x text-gray-300"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+</div>
+<div className="row">
+
+  <div className="col-xl-6 col-md-6 mb-4">
+    <div className="card shadow h-100 card-hover">
+      <div className="card-body text-center">
+        <i className="fas fa-comment-dots fa-2x text-danger mb-2"></i>
+        <h5 className="fw-bold">Feedback</h5>
+        <a href="/feed_details" className="btn btn-danger btn-sm w-100 mt-2">Show Feedback</a>
+      </div>
+    </div>
+  </div>
+
+  <div className="col-xl-6 col-md-6 mb-4">
+    <div className="card shadow h-100 card-hover">
+      <div className="card-body text-center">
+        <i className="fas fa-address-book fa-2x text-dark mb-2"></i>
+        <h5 className="fw-bold">Contact</h5>
+        <a href="/con_details" className="btn btn-dark btn-sm w-100 mt-2">Show Contacts</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
 
 
                     {/* <div className="row">
@@ -174,7 +200,7 @@ export default function A_Index() {
                         </div>
                     </div> */}
 
-                    <div className="row">
+                    {/* <div className="row">
 
                         <div className="col-lg-6 mb-4">
 
@@ -319,7 +345,7 @@ export default function A_Index() {
                             </div>
 
                         </div>
-                    </div>
+                    </div> */}
 
                 </div>
 

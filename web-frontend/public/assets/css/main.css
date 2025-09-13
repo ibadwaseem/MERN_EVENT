@@ -1688,3 +1688,38 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/* Dashboard */
+.card-hover {
+  min-height: 220px;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #10131d, #001553);
+  transition: transform 2s ease, box-shadow 0.2s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(248, 244, 244, 0.15);
+}
+
+/* Dropdown opens on hover */
+.hover-dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.dropdown-menu {
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.dropdown-item:hover {
+  background: #173ba8;
+  font-weight: 500;
+}
