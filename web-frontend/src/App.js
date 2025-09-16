@@ -6,6 +6,8 @@ import "bootstrap/dist/js/bootstrap.bundle.js";
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
+
+
 import A_Index from './Admin_Components/A_Index';
 import Login from './Admin_Components/Login';
 import Register from './Admin_Components/Register';
@@ -35,6 +37,7 @@ import AddStallForm from './Admin_Components/Add_Stall';
 import ShowStalls from './Admin_Components/ShowStalls';
 import BookedStallsPage from './Admin_Components/AllBookedStalls';
 import ContactUs from './Web_Componenet/ContactUs';
+import EventDetails from './Web_Componenet/EventDetails';
 
 
 
@@ -47,7 +50,7 @@ function App() {
 
      <Routes>
      
-     
+     <Route path="/event/:id" element={<EventDetails />} />
 
       <Route path="/admin" element={<A_Index />}/>
 
@@ -56,6 +59,7 @@ function App() {
     
       <Route path="/event" element={<Events_Forms />}/>
       <Route path="/schedule" element={<Schedule_forms />}/>
+  
       <Route path="/event_details" element={<Event_details />}/>
       <Route path="/schedule_details" element={<Schedule_details />}/>
       <Route path="/con_details" element={<ContactUs_details />}/>

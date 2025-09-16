@@ -16,6 +16,7 @@ route.get("/get_cont",fun.show_contact);
 route.delete("/del_cont/:id",fun.delete_contact);
 route.post("/a_events",fun.events);
 route.get("/get_events",fun.show_events);
+route.get("/get_event/:id",fun.get_event);
 route.delete("/del_events/:id",fun.delete_events);
 route.put("/update_events/:id",fun.update_events);
 route.post("/w_reg",fun.register_user);

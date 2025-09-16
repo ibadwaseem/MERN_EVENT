@@ -4,6 +4,9 @@ import { Autoplay, Pagination } from 'swiper/modules';
 import AOS from 'aos';
 import GLightbox from 'glightbox';
 
+import { Link } from "react-router-dom"; 
+
+
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'aos/dist/aos.css';
@@ -490,31 +493,25 @@ async function get_data() {
 
     <div className="row gy-4">
 
-      {/* <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-        <div className="card h-100">
-          <div className="card-img">
-            <img src="./assets/img/hotels-1.jpg" alt="" className="img-fluid"/>
-          </div>
-          <h3><a href="#" className="stretched-link">Non quibusdam blanditiis</a></h3>
-          <div className="stars"><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i></div>
-          <p>0.4 Mile from the Venue</p>
-        </div>
-      </div> */}
-      {event_data.map((a)=>(
-        <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200" key={a._id}>
-        <div className="card h-100">
-          <div className="card-img">
-            <img src="./assets/img/expo-img2.jpg" alt="" className="img-fluid"/>
-          </div>
-          <h2><a href="#" className="stretched-link">{a.title}</a></h2>
-          <h3>{a.theme}</h3>
-          {/* <div className="stars"><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i></div> */}
-          <p>{a.start_date}</p>
-          <p>{a.end_date}</p>
-          <p> {a.description}</p>
-        </div>
+    
+ {event_data.map((a) => (
+  <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200" key={a._id}>
+    <div className="card h-100">
+      <div className="card-img">
+        <img src="./assets/img/expo-img2.jpg" alt="" className="img-fluid"/>
       </div>
-      ))}
+      {/* 👇 Link to EventDetails with ID */}
+      <h2>
+        <Link to={`/event/${a._id}`} className="stretched-link">
+          {a.title}
+        </Link>
+      </h2>
+      <h3>{a.theme}</h3>
+      <p>{a.start_date}</p>
+      <p>{a.end_date}</p>
+    </div>
+  </div>
+))}
       
 
       {/* <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">

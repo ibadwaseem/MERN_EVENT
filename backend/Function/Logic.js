@@ -170,6 +170,16 @@ let main_func={
         }
    },
 
+   get_event : async function (req, res) {
+    try {
+        let id=req.params.id;
+        let getevent_data = await events.find({_id:id});
+        res.status(201).json(getevent_data);
+    } catch (error) {
+        res.status(501).json({msg: error.message})
+    }
+},
+
    delete_events : async function (req,res) {
         try {
             let {id} = req.params;
