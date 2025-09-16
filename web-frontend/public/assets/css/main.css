@@ -22,7 +22,7 @@
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #2f3138; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #7b7b80; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #d61c1c; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #ff0000; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #8b6767; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #c2bebe; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -34,7 +34,7 @@
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #212529; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #1e07f0; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-dropdown-hover-color: #ff0000; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -232,16 +232,16 @@ h6 {
 }
 
 .header .logo {
-  line-height: 1;
+  line-height: 2;
 }
 
 .header .logo img {
-  max-height: 36px;
+  max-height: 80px;
   margin-right: 8px;
 }
 
 .header .logo h1 {
-  font-size: 30px;
+  font-size: 40px;
   margin: 0;
   font-weight: 700;
   color: var(--heading-color);
@@ -1693,13 +1693,13 @@ section,
 .card-hover {
   min-height: 220px;
   border-radius: 12px;
-  background: linear-gradient(180deg, #10131d, #001553);
+  background: linear-gradient(180deg, #ffffff, #ffffff);
   transition: transform 2s ease, box-shadow 0.2s ease;
 }
 
 .card-hover:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(248, 244, 244, 0.15);
+  box-shadow: 0 8px 25px rgba(255, 0, 0, 0.15);
 }
 
 /* Dropdown opens on hover */
@@ -1710,16 +1710,13 @@ section,
 
 .dropdown-menu {
   border-radius: 8px;
+  background: #000;
   border: none;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 20px rgba(255, 0, 0, 0.1);
 }
 
 .dropdown-item {
-  padding: 10px 15px;
+  padding: 5px 15px;
   font-size: 14px;
 }
 
-.dropdown-item:hover {
-  background: #173ba8;
-  font-weight: 500;
-}
