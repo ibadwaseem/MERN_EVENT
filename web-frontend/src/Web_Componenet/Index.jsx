@@ -111,7 +111,7 @@ export default function Index() {
 
 async function get_data() {
     try {
-        const response = await axios.get("http://localhost:3000/eproject/get_schedule");
+        const response = await axios.get("http://localhost:4000/eproject/get_schedule");
         setSchedule_data(response.data);
     } catch (e) {
         console.error(e);
@@ -185,8 +185,8 @@ async function get_data() {
 <section id="speakers" className="speakers section">
 
 
-<div className="container section-title" data-aos="fade-up" >
-    <h2>Event Speakers<br/></h2>
+<div className="container section-title" data-aos="fade-up">
+    <h2 style={{ color: "black" }}>Event Speakers<br/></h2>
 
   </div>
   <div className="container">
