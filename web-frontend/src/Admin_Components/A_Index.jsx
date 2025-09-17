@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import Sidebar from './Sidebar';
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+
 
 
 
@@ -30,15 +32,21 @@ export default function A_Index() {
       <div className="card-body text-center">
         <i className="fas fa-calendar-alt fa-2x text-sucess mb-2"></i>
         <h5 className="fw-bold">Event</h5>
-        <div className="dropdown hover-dropdown mt-2">
-          <button className="btn btn-primary btn-sm w-100">
-            Manage Event
-          </button>
-          <div className="dropdown-menu w-100">
-            <a className="dropdown-item" href="/event">➕ Add Event</a>
-            <a className="dropdown-item" href="/event_details">📋 Show Events</a>
-          </div>
-        </div>
+        <div className="dropdown mt-2">
+  <button
+    className="btn btn-primary btn-sm w-100 dropdown-toggle"
+    type="button"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+    Manage Event
+  </button>
+  <ul className="dropdown-menu w-100">
+    <li><a className="dropdown-item" href="/event">➕ Add Event</a></li>
+    <li><a className="dropdown-item" href="/event_details">📋 Show Events</a></li>
+  </ul>
+</div>
+
       </div>
     </div>
   </div>

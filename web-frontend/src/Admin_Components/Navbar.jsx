@@ -30,7 +30,7 @@ export default function Navbar() {
                     </form> */}
 
                     <ul className="navbar-nav ml-auto">
-
+{/* 
                         <li className="nav-item dropdown no-arrow d-sm-none">
                             <a className="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -51,9 +51,9 @@ export default function Navbar() {
                                     </div>
                                 </form>
                             </div>
-                        </li>
-
-                        {/* <li className="nav-item dropdown no-arrow mx-1">
+                        </li> */}
+{/* 
+                        <li className="nav-item dropdown no-arrow mx-1">
                             <a className="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i className="fas fa-bell fa-fw"></i>
@@ -99,9 +99,9 @@ export default function Navbar() {
                                 </a>
                                 <a className="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
                             </div>
-                        </li> */}
-
-                        {/* <li className="nav-item dropdown no-arrow mx-1">
+                        </li>  */}
+{/* 
+                         <li className="nav-item dropdown no-arrow mx-1">
                             <a className="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i className="fas fa-envelope fa-fw"></i>
@@ -162,11 +162,11 @@ export default function Navbar() {
                                 </a>
                                 <a className="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
                             </div>
-                        </li> */}
+                        </li>  */}
 
                         <div className="topbar-divider d-none d-sm-block"></div>
-
-                        {/* <li className="nav-item dropdown no-arrow">
+{/* 
+                         <li className="nav-item dropdown no-arrow">
                             <a className="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span className="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
@@ -193,7 +193,7 @@ export default function Navbar() {
                                     Logout
                                 </a>
                             </div>
-                        </li> */}
+                        </li>  */}
 
                     </ul>
 

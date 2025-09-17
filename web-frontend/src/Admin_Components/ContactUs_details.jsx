@@ -46,7 +46,7 @@ export default function ContactUs_details() {
     const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
     return (
-        <div id="wrapper">
+        <><div id="wrapper">
             <Sidebar />
             <div id="content-wrapper" className="d-flex flex-column">
                 <div id="content">
@@ -103,8 +103,8 @@ export default function ContactUs_details() {
                     </div>
                 </div>
             </div>
-            <Footer />
             <ToastContainer />
-        </div>
-    );
+        </div><Footer /></>
+
+);
 }

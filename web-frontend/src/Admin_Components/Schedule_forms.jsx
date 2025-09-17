@@ -87,16 +87,32 @@ async function save_event(e) {
                             <input type="text" className="form-control" placeholder="Enter location"  value={location} onChange={(e)=> setLocation(e.target.value)}/>
                         </div>
 
-                        <div className="row mb-3">
-                          <div className="col-sm-6">
-                            <label className="form-label">Start Date</label>
-                            <input type="date" className="form-control"  value={sdate} onChange={(e)=> setSdate(e.target.value)}/>
-                          </div>
-                          <div className="col-sm-6">
-                            <label className="form-label">End Date</label>
-                            <input type="date" className="form-control"  value={edate} onChange={(e)=> setEdate(e.target.value)}/>
-                          </div>
-                        </div>
+<div className="row mb-3">
+  <div className="row mb-3">
+  <div className="col-sm-6">
+    <label className="form-label">Start Date</label>
+    <input 
+      type="date" 
+      className="form-control"  
+      value={sdate} 
+      onChange={(e)=> setSdate(e.target.value)}
+      min={new Date().toISOString().split("T")[0]}   
+    />
+  </div>
+
+  <div className="col-sm-6">
+    <label className="form-label">End Date</label>
+    <input 
+      type="date" 
+      className="form-control"  
+      value={edate} 
+      onChange={(e)=> setEdate(e.target.value)}
+      min={new Date().toISOString().split("T")[0]}  
+    />
+  </div>
+</div>
+
+</div>
 
                         <button type="submit" onClick={save_event} className="btn btn-primary w-100">
                           Submit Schedule

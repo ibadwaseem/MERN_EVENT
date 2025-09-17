@@ -1,7 +1,8 @@
 ADMIN: aptechcoaching2022@gmail.com
 PASSWORD: Admin@786
 
-Visitor:gaznavi2017@gmail.com
-PASSWORD: Rocky@123
+Visitor:       gaznavi2017@gmail.com
+PASSWORD:      Rocky@123
 
-ibadwaseem786@gmail.com
+Exb:          ibadwaseem786@gmail.com
+PASSWORD:     Syed@112233

@@ -23,7 +23,7 @@
   --default-color: #2f3138; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #7b7b80; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #ff0000; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #8b6767; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --surface-color: #dbd9e0; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #c2bebe; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
@@ -40,7 +40,7 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 /* Sponsor */
 .light-background {
-  --background-color: #808085;
+  --background-color: #ededf3;
   --surface-color: #c2baba;
 }
 /* Footer */
@@ -297,6 +297,7 @@ h6 {
 @media (min-width: 1200px) {
   .navmenu {
     padding: 0;
+    
   }
 
   .navmenu ul {
@@ -518,6 +519,12 @@ h6 {
   .navmenu .dropdown ul ul {
     background-color: rgba(33, 37, 41, 0.1);
   }
+  /* Jab navmenu active ho, ul show ho */
+.navmenu.mobile-nav-active ul {
+  display: block !important;
+}
+
+  
 
   .navmenu .dropdown>.dropdown-active {
     display: block;
@@ -1702,21 +1709,36 @@ section,
   box-shadow: 0 8px 25px rgba(255, 0, 0, 0.15);
 }
 
-/* Dropdown opens on hover */
-.hover-dropdown:hover .dropdown-menu {
-  display: block;
-  margin-top: 0.5rem;
+.hover-dropdown {
+  position: relative;
 }
 
-.dropdown-menu {
-  border-radius: 8px;
-  background: #000;
-  border: none;
-  box-shadow: 0 6px 20px rgba(255, 0, 0, 0.1);
+.hover-dropdown .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  border-radius: 10px;
+  background: #e2dada;
+  padding: 0.5rem 0;
+  min-width: 100%;
+}
+
+.hover-dropdown:hover .dropdown-menu {
+  display: block;
 }
 
 .dropdown-item {
-  padding: 5px 15px;
+  padding: 8px 16px; /* normal padding */
   font-size: 14px;
+  color: #240b0b;
 }
+
+.dropdown-item:hover {
+  background: #faf6f6;
+}
+
+
+
 

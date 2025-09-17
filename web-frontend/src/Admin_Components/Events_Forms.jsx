@@ -62,7 +62,7 @@ async function save_event(e) {
 >
   <div className="text-center p-4">
     <h2 className="fw-bold">Event Management</h2>
-    <p>Create and manage events easily!</p>
+    <p>Create and manage Events!</p>
   </div>
 </div>
 
@@ -96,18 +96,34 @@ async function save_event(e) {
                         </div>
 
                         <div className="row mb-3">
-                          <div className="col-sm-6">
-                            <label className="form-label">Start Date</label>
-                            <input type="date" className="form-control"  value={sdate} onChange={(e)=> setSdate(e.target.value)}/>
-                          </div>
-                          <div className="col-sm-6">
-                            <label className="form-label">End Date</label>
-                            <input type="date" className="form-control"  value={edate} onChange={(e)=> setEdate(e.target.value)}/>
-                          </div>
+                          <div className="row mb-3">
+  <div className="col-sm-6">
+    <label className="form-label">Start Date</label>
+    <input 
+      type="date" 
+      className="form-control"  
+      value={sdate} 
+      onChange={(e)=> setSdate(e.target.value)}
+      min={new Date().toISOString().split("T")[0]}   // ✅ past dates disabled
+    />
+  </div>
+
+  <div className="col-sm-6">
+    <label className="form-label">End Date</label>
+    <input 
+      type="date" 
+      className="form-control"  
+      value={edate} 
+      onChange={(e)=> setEdate(e.target.value)}
+      min={new Date().toISOString().split("T")[0]}   // ✅ past dates disabled
+    />
+  </div>
+</div>
+
                         </div>
 
                         <button type="submit" onClick={save_event} className="btn btn-primary w-100">
-                          Submit Event
+                          Create Event
                         </button>
                       </form>
 

@@ -145,7 +145,7 @@ async function get_data() {
 
 <section id="hero" className="hero section dark-background">
 
-  <img src="./assets/img/hero-bg.jpg" alt="" data-aos="fade-in" className=""/>
+  <img src="./assets/img/hero.png" alt="" data-aos="fade-in" className=""/>
 
   <div className="container d-flex flex-column align-items-center text-center mt-auto">
     <h2 data-aos="fade-up" data-aos-delay="100" className="">The Event<br/><span>Sphere Management</span> System</h2>
@@ -181,7 +181,7 @@ async function get_data() {
 
 </section>
 
-
+ 
 <section id="speakers" className="speakers section">
 
 
@@ -195,10 +195,10 @@ async function get_data() {
 
       <div className="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
         <div className="member">
-          <img src="./assets/img/speakers/speaker-1.jpg" className="img-fluid" alt=""/>
+          <img src="./assets/img/speakers/speaker-7.jpg" className="img-fluid" alt=""/>
           <div className="member-info">
             <div className="member-info-content">
-              <h4><a href="">Walter White</a></h4>
+              <h4><a href="">Syed Muzamil Hasan Zaidi</a></h4>
               <span></span>
             </div>
             <div className="social">
@@ -213,10 +213,10 @@ async function get_data() {
 
       <div className="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div className="member">
-          <img src="./assets/img/speakers/speaker-2.jpg" className="img-fluid" alt=""/>
+          <img src="./assets/img/speakers/speaker-8.jpg" className="img-fluid" alt=""/>
           <div className="member-info">
             <div className="member-info-content">
-              <h4><a href="">Hubert Hirthe</a></h4>
+              <h4><a href="">Javed Chaudhry</a></h4>
               <span></span>
             </div>
             <div className="social">
@@ -231,10 +231,10 @@ async function get_data() {
 
       <div className="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
         <div className="member">
-          <img src="./assets/img/speakers/speaker-3.jpg" className="img-fluid" alt=""/>
+          <img src="./assets/img/speakers/speaker-01.png" className="img-fluid" alt=""/>
           <div className="member-info">
             <div className="member-info-content">
-              <h4><a href="">Amanda Jepson</a></h4>
+              <h4><a href="">Qasim Ali Shah</a></h4>
               <span></span>
             </div>
             <div className="social">
@@ -246,13 +246,13 @@ async function get_data() {
           </div>
         </div>
       </div>
-
+    
       <div className="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
         <div className="member">
-          <img src="./assets/img/speakers/speaker-4.jpg" className="img-fluid" alt=""/>
+          <img src="./assets/img/speakers/speaker.9.png" className="img-fluid" alt=""/>
           <div className="member-info">
             <div className="member-info-content">
-              <h4><a href="">William Anderson</a></h4>
+              <h4><a href="">umair jaliawala</a></h4>
               <span></span>
             </div>
             <div className="social">
@@ -269,9 +269,11 @@ async function get_data() {
 
   </div>
 
-</section>
+</section> 
 
 
+
+                         {/* Event Schedule */}
 <section id="schedule" className="schedule section">
 
 
@@ -386,7 +388,7 @@ async function get_data() {
 
     <div className="row g-0">
       <div className="col-lg-6 venue-map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style={{border:0}} allowfullscreen=""></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.8851102974263!2d67.07415577443113!3d24.901900243599915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33edf57c0d5f5%3A0x956c5a189579b59d!2sExpo%20Centre%20Karachi!5e0!3m2!1sen!2s!4v1758000771216!5m2!1sen!2s" frameborder="0" style={{border:0}} allowfullscreen=""></iframe>
       </div>
 
       <div className="col-lg-6 venue-info">
@@ -500,15 +502,20 @@ async function get_data() {
       <div className="card-img">
         <img src="./assets/img/expo-img2.jpg" alt="" className="img-fluid"/>
       </div>
-      {/* 👇 Link to EventDetails with ID */}
+      
       <h2>
-        <Link to={`/event/${a._id}`} className="stretched-link">
+        <Link to={`/event/${a._id}`} className="stretched-link"
+            style={{ color: "black", textDecoration: "none" }}
+>
           {a.title}
         </Link>
       </h2>
       <h3>{a.theme}</h3>
-      <p>{a.start_date}</p>
-      <p>{a.end_date}</p>
+            <h3>{a.theme}</h3>
+      <p><strong>Start Date:</strong> {new Date(a.start_date).toLocaleDateString("en-GB")
+}</p>
+      <p><strong>End Date:</strong> {new Date(a.end_date).toLocaleDateString()}</p>
+
     </div>
   </div>
 ))}
@@ -530,7 +537,7 @@ async function get_data() {
   </div>
 
 </section>
-
+                                                {/* Sponser  */}
 <section id="sponsors" className="sponsors section light-background">
 
 
@@ -548,33 +555,33 @@ async function get_data() {
     <div className="row g-0 clients-wrap">
 
       <div className="col-xl-3 col-md-4 client-logo">
-        <img src="./assets/img/clients/client-1.png" className="img-fluid" alt=""/>
+        <img src="./assets/img/clients/client-1.0.png" className="img-fluid" alt=""/>
       </div>
 
       <div className="col-xl-3 col-md-4 client-logo">
-        <img src="./assets/img/clients/client-2.png" className="img-fluid" alt=""/>
+        <img src="./assets/img/clients/client-2.0.png" className="img-fluid" alt=""/>
       </div>
 
       <div className="col-xl-3 col-md-4 client-logo">
-        <img src="./assets/img/clients/client-3.png" className="img-fluid" alt=""/>
+        <img src="./assets/img/clients/client-3.0.png" className="img-fluid" alt=""/>
       </div>
 
       <div className="col-xl-3 col-md-4 client-logo">
-        <img src="./assets/img/clients/client-4.png" className="img-fluid" alt=""/>
-      </div>
-
-      <div className="col-xl-3 col-md-4 client-logo">
-        <img src="./assets/img/clients/client-5.png" className="img-fluid" alt=""/>
-      </div>
-      <div className="col-xl-3 col-md-4 client-logo">
-        <img src="./assets/img/clients/client-6.png" className="img-fluid" alt=""/>
-      </div>
-      <div className="col-xl-3 col-md-4 client-logo">
-        <img src="./assets/img/clients/client-7.png" className="img-fluid" alt=""/>
+        <img src="./assets/img/clients/client-4.0.png" className="img-fluid" alt=""/>
       </div>
 
       <div className="col-xl-3 col-md-4 client-logo">
         <img src="./assets/img/clients/client-8.png" className="img-fluid" alt=""/>
+      </div>
+      <div className="col-xl-3 col-md-4 client-logo">
+        <img src="./assets/img/clients/client-7.png" className="img-fluid" alt=""/>
+      </div>
+      <div className="col-xl-3 col-md-4 client-logo">
+        <img src="./assets/img/clients/client-6.png" className="img-fluid" alt=""/>
+      </div>
+
+      <div className="col-xl-3 col-md-4 client-logo">
+        <img src="./assets/img/clients/client-5.0.png" className="img-fluid" alt=""/>
       </div>
     </div>
 
