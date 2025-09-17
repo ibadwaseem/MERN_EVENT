@@ -119,7 +119,7 @@ export default function ContactUs() {
             <div className="container position-relative" data-aos="fade-up">
               <div className="row">
                 <div className="col-lg-6">
-                  <h2>About The Event</h2>
+                  <h2>About EventSphere</h2>
                   <p>
                     EventSphere 2025 brings together industry leaders, innovators, and enthusiasts for a day of
                     inspiration, collaboration, and growth. Through keynote talks, interactive workshops, and
@@ -135,7 +135,7 @@ export default function ContactUs() {
                 </div>
                 <div className="col-lg-3">
                   <h3>When</h3>
-                  <p>Monday to Wednesday<br />10-12 December</p>
+                  <p>Monday to Wednesday<br />10-12 September</p>
                 </div>
               </div>
             </div>
@@ -161,7 +161,7 @@ export default function ContactUs() {
                 <div className="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
                   <i className="bi bi-geo-alt"></i>
                   <h3>Address</h3>
-                  <p>///</p>
+                  <p>Aptech North Nazimabad </p>
                 </div>
               </div>
 
@@ -186,7 +186,7 @@ export default function ContactUs() {
             <div className="row gy-4 mt-1">
               <div className="col-lg-6" data-aos="fade-up" data-aos-delay="300">
             
-                <iframe src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.8851102974263!2d67.07415577443113!3d24.901900243599915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33edf57c0d5f5%3A0x956c5a189579b59d!2sExpo%20Centre%20Karachi!5e0!3m2!1sen!2s!4v1758000771216!5m2!1sen!2s" frameborder="0" style={{ border: 0, width: `100%`, height: `400px` }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14472.607352821575!2d67.01629420881879!3d24.926896823471502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f90157042d3%3A0x93d609e8bec9a880!2sAptech%20Computer%20Education%20North%20Nazimabad%20Center!5e0!3m2!1sen!2s!4v1758149878958!5m2!1sen!2s" frameborder="0" style={{ border: 0, width: `100%`, height: `400px` }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
 
               <div className="col-lg-6">

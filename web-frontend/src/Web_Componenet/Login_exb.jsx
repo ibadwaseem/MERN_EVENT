@@ -102,10 +102,15 @@ export default function Login_exb() {
             <div className="container position-relative" data-aos="fade-up">
               <div className="row">
                 <div className="col-lg-6">
-                  <h2>About The Event</h2>
-                  <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
-                    accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in
-                    est ut optio sequi unde.</p>
+                  <h2>About EventSphere</h2>
+                  <p>
+                    EventSphere 2025 brings together industry leaders, innovators, and enthusiasts for a day of
+                    inspiration, collaboration, and growth. Through keynote talks, interactive workshops, and
+                    networking opportunities, attendees will discover new ideas, gain practical insights, and
+                    connect with like-minded professionals. Whether you’re here to learn, share, or be inspired,
+                    this event is designed to create lasting impact.
+                  </p>
+
                 </div>
                 <div className="col-lg-3">
                   <h3>Where</h3>
@@ -113,7 +118,7 @@ export default function Login_exb() {
                 </div>
                 <div className="col-lg-3">
                   <h3>When</h3>
-                  <p>Monday to Wednesday<br/>10-12 December</p>
+                  <p>Monday to Wednesday<br />10-12 September</p>
                 </div>
               </div>
             </div>

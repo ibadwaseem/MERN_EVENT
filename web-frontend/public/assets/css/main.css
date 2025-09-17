@@ -21,7 +21,7 @@
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #2f3138; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #7b7b80; /* Color for headings, subheadings and title throughout the website */
+  --heading-color: #7b807d; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #ff0000; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #dbd9e0; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #c2bebe; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
@@ -40,8 +40,8 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 /* Sponsor */
 .light-background {
-  --background-color: #ededf3;
-  --surface-color: #c2baba;
+  --background-color: #f4f4fd;
+  --surface-color: #d2d4d3;
 }
 /* Footer */
 .dark-background {
@@ -376,7 +376,7 @@ h6 {
     display: block;
     position: absolute;
     visibility: hidden;
-    left: 14px;
+    left: 0.1rem;
     top: 130%;
     opacity: 0;
     transition: 0.3s;
@@ -477,8 +477,8 @@ h6 {
     font-size: 12px;
     line-height: 0;
     margin-left: 5px;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -987,6 +987,7 @@ section,
   text-align: center;
   position: relative;
   overflow: hidden;
+  height: 100%;
 }
 
 .speakers .member .member-info {

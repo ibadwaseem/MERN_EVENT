@@ -64,7 +64,7 @@ let nav = useNavigate();
 
                 <ToastContainer />
             </div>
-            {/* <Footer /> */}
+             <Footer /> 
         </div>
     );
 }

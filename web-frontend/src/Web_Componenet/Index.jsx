@@ -161,11 +161,14 @@ async function get_data() {
     <div className="container position-relative" data-aos="fade-up">
       <div className="row">
         <div className="col-lg-6">
-          <h2>About The Event</h2>
-          <p>Join us for an exciting event filled with inspiring talks, interactive sessions, and networking opportunities. 
-  Our goal is to bring together professionals, students, and innovators to share knowledge, explore new ideas, 
-  and create meaningful connections. Don’t miss the chance to be part of this unique experience!
-</p>
+          <h2>About EventSphere</h2>
+           <p>
+                    EventSphere 2025 brings together industry leaders, innovators, and enthusiasts for a day of
+                    inspiration, collaboration, and growth. Through keynote talks, interactive workshops, and
+                    networking opportunities, attendees will discover new ideas, gain practical insights, and
+                    connect with like-minded professionals. Whether you’re here to learn, share, or be inspired,
+                    this event is designed to create lasting impact.
+                  </p>
         </div>
         <div className="col-lg-3">
           <h3>Where</h3>

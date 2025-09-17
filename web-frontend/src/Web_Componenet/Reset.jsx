@@ -38,7 +38,7 @@ let nav = useNavigate();
     <button className='btn btn-primary my-2' onClick={arp}>Sent Link</button>
     <ToastContainer/>
 </div>
-{/* <Footer/> */}
+ <Footer/> 
     </div>
   )
 }

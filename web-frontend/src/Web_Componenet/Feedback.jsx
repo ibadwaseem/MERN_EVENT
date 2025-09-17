@@ -118,27 +118,28 @@ async function save_feed(e) {
       <div className="about-info mt-auto position-relative">
 
         <div className="container position-relative" data-aos="fade-up">
-          <div className="row">
-            <div className="col-lg-6">
-              <h2>About The Event</h2>
-              <p>
-  EventSphere 2025 brings together industry leaders, innovators, and enthusiasts for a day of 
-  inspiration, collaboration, and growth. Through keynote talks, interactive workshops, and 
-  networking opportunities, attendees will discover new ideas, gain practical insights, and 
-  connect with like-minded professionals. Whether you’re here to learn, share, or be inspired, 
-  this event is designed to create lasting impact.
-</p>
+              <div className="row">
+                <div className="col-lg-6">
+                  <h2>About EventSphere</h2>
+                  <p>
+                    EventSphere 2025 brings together industry leaders, innovators, and enthusiasts for a day of
+                    inspiration, collaboration, and growth. Through keynote talks, interactive workshops, and
+                    networking opportunities, attendees will discover new ideas, gain practical insights, and
+                    connect with like-minded professionals. Whether you’re here to learn, share, or be inspired,
+                    this event is designed to create lasting impact.
+                  </p>
+
+                </div>
+                <div className="col-lg-3">
+                  <h3>Where</h3>
+                  <p>Expo Center, Pakistan</p>
+                </div>
+                <div className="col-lg-3">
+                  <h3>When</h3>
+                  <p>Monday to Wednesday<br />10-12 September</p>
+                </div>
+              </div>
             </div>
-            <div className="col-lg-3">
-              <h3>Where</h3>
-              <p>Expo Center, Pakistan</p>
-            </div>
-            <div className="col-lg-3">
-              <h3>When</h3>
-              <p>Monday to Wednesday<br/>10-12 December</p>
-            </div>
-          </div>
-        </div>
       </div>
 
     </section>
@@ -159,7 +160,7 @@ async function save_feed(e) {
           <div className="info-item text-center p-4 bg-white shadow rounded" data-aos="fade-up" data-aos-delay="100">
             <i className="bi bi-geo-alt fs-3 text-danger mb-2"></i>
             <h5>Address</h5>
-            <p className="mb-0">///</p>
+            <p className="mb-0">Aptech North Nazimabad</p>
           </div>
 
           <div className="info-item text-center p-4 bg-white shadow rounded" data-aos="fade-up" data-aos-delay="200">

@@ -65,7 +65,7 @@ export default function A_Resetpass() {
 
                 <ToastContainer />
             </div>
-            {/* <Footer /> */}
+             <Footer /> 
         </div>
     );
 }
