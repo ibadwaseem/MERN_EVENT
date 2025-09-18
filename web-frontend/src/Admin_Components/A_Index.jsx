@@ -52,15 +52,22 @@ export default function A_Index() {
   </div>
 
   {/* Schedule */}
+
+  
   <div className="col-xl-3 col-md-6 mb-4">
     <div className="card shadow h-100 card-hover">
       <div className="card-body text-center">
         <i className="fas fa-clock fa-2x text-success mb-2"></i>
-        <h5 className="fw-bold">Schedule</h5>
-        <div className="dropdown hover-dropdown mt-2">
-          <button className="btn btn-success btn-sm w-100">
-            Manage Schedule
-          </button>
+       <h5 className="fw-bold">Schedule</h5>
+        <div className="dropdown mt-2">
+  <button
+    className="btn btn-primary btn-sm w-100 dropdown-toggle"
+    type="button"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+    Manage Schedule
+  </button>
           <div className="dropdown-menu w-100">
             <a className="dropdown-item" href="/schedule">➕ Add Schedule</a>
             <a className="dropdown-item" href="/schedule_details">📋 Show Schedule</a>
@@ -75,11 +82,16 @@ export default function A_Index() {
     <div className="card shadow h-100 card-hover">
       <div className="card-body text-center">
         <i className="fas fa-building fa-2x text-info mb-2"></i>
-        <h5 className="fw-bold">Hall</h5>
-        <div className="dropdown hover-dropdown mt-2">
-          <button className="btn btn-info btn-sm w-100">
-            Manage Hall
-          </button>
+       <h5 className="fw-bold">Halls</h5>
+        <div className="dropdown mt-2">
+  <button
+    className="btn btn-primary btn-sm w-100 dropdown-toggle"
+    type="button"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+    Manage Halls
+  </button>
           <div className="dropdown-menu w-100">
             <a className="dropdown-item" href="/add_hall">➕ Add Hall</a>
             <a className="dropdown-item" href="/Show_halls">📋 Show Halls</a>
@@ -94,11 +106,16 @@ export default function A_Index() {
     <div className="card shadow h-100 card-hover">
       <div className="card-body text-center">
         <i className="fas fa-store fa-2x text-warning mb-2"></i>
-        <h5 className="fw-bold">Stall</h5>
-        <div className="dropdown hover-dropdown mt-2">
-          <button className="btn btn-warning btn-sm w-100">
-            Manage Stall
-          </button>
+       <h5 className="fw-bold">Stalls</h5>
+        <div className="dropdown mt-2">
+  <button
+    className="btn btn-primary btn-sm w-100 dropdown-toggle"
+    type="button"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
+    Manage Stalls
+  </button>
           <div className="dropdown-menu w-100">
             <a className="dropdown-item" href="/add_stall">➕ Add Stall</a>
             <a className="dropdown-item" href="/show_stall">📋 Show Stalls</a>

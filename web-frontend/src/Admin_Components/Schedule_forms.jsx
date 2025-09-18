@@ -59,7 +59,7 @@ async function save_event(e) {
 >
   <div className="text-center p-4">
     <h2 className="fw-bold">Schedule Management</h2>
-    <p>Create and manage schedule easily!</p>
+    <p>Create and manage schedule!</p>
   </div>
 </div>
 
@@ -115,7 +115,7 @@ async function save_event(e) {
 </div>
 
                         <button type="submit" onClick={save_event} className="btn btn-primary w-100">
-                          Submit Schedule
+                          Create Schedule
                         </button>
                       </form>
 
