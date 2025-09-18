@@ -34,7 +34,7 @@ const ShowStalls = () => {
 
   // Get hall number by ID (handle if hall is object or ID string)
   const getHallNo = (hallRef) => {
-    const hallId = typeof hallRef === "object" ? hallRef._id : hallRef;
+    const hallId = hallRef;
     const hall = halls.find((h) => h._id === hallId);
     return hall ? hall.hall_no : "N/A";
   };
